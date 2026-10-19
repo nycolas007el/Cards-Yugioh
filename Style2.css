@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh ;
+    width: 100vw;
+    border: solid 1px  rgb(199,41,41);
+    background-color: rgb(73,20,138 );
+}
+.nome{
+    position: absolute;
+    left: 1%;
+    color: white;
+}
+.icone{
+    position: absolute;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+}
+.sair{
+    position: absolute;
+    left: 92vw;
+    border: solid 2px rgb(255,255,255);
+    background-color: rgb( 204,146,196);
+    color: white;
+    border-radius: 5px;
+    height: 4vh;
+    width: 7vw;
+}
+.sair:hover{
+    left: 92.5vw;
+    border: solid 2px rgb(10, 10, 10);
+    background-color: rgb(204, 120, 193);
+    color: rgb(0, 0, 0);
+    height: 3vh;
+    width: 6vw;
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    width: 30vw;
+    height: 87vh;
+    position: absolute;
+    left: 69.5vw;
+    background-color: rgb( 213,66,21);
+}
+.C{
+    background-color: rgb(172, 169, 169);
+    margin: 0.3vw;
+    height: 10%;
+    width: 85%;
+    border: solid 1px rgb( 255,179,0);
+    border-radius: 7px;
+    text-align: center;
+}
+.C:hover{
+    background-color: rgb(202, 202, 202);
+    margin: 0.7vw;
+    height: 8%;
+    width: 85%;
+    border: solid 1px rgb( 255,179,0);
+    border-radius: 7px;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    bottom: 75vh;
+}
+.criar{
+    position: absolute;
+    bottom: 5vh;
+    height: 8vh;
+    width: 15vw;
+    border: solid 2px rgb( 73,20,138);
+    border-radius: 7px;
+    background-color: rgb(	204,146,196);
+}
+.criar:hover{
+    position: absolute;
+    bottom: 6.5vh;
+    height: 6vh;
+    width: 15vw;
+    border: solid 2px rgb(40, 10, 77);
+    border-radius: 7px;
+    background-color: rgb(180, 85, 168);
+}
+
+
+/* Área onde todas as cartas ficam */
+.area-cards {
+    position: absolute;
+    top: 12vh;
+    left: 2vw;
+    width: 65vw;
+    height: 84vh;
+    display: flex;
+    flex-wrap: wrap; /* Se tiver muitas cartas, ele pula para a linha de baixo */
+    gap: 20px;
+    overflow-y: auto; /* Barra de rolagem se encher de cartas */
+    padding: 10px;
+}
+
+/* O cartão de cada carta */
+.card-item {
+    background-color: rgb(73, 20, 138);
+    color: white;
+    border: 2px solid rgb(255, 179, 0);
+    border-radius: 10px;
+    width: 243px;
+    height: 354px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.card-item img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    background-color: #222;
+}
+
+.card-item h3 {
+    font-size: 1.1rem;
+    color: rgb(255, 179, 0);
+    margin-bottom: 4px;
+    color: black;
+}
+
+.card-item p {
+    font-size: 0.85rem;
+    margin: 2px 0;
+    color: black;
+}
+
+.cardSpace{
+    border: solid 2px black;
+    width: 18vw;
+    height: 30vh;
+    background-color: beige;
+}
