@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <img src="./docs/preview.png" alt="Demonstração do Yu-Gi-Oh! Hub" width="850px" style="border-radius: 10px;" />
+  <img src="./docs/preview.png" alt="Tela Principal de Criação de Cartas" width="650px" style="border-radius: 10px; margin: 5px;" />
+  <img src="./docs/login.png" alt="Tela de Login" width="400px" style="border-radius: 10px; margin: 5px;" />
 </p>
 
 [Visão Geral](#-visão-geral) •
