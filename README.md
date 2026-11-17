@@ -13,6 +13,10 @@
   Uma aplicação full stack para autenticação de duelistas e criação personalizada de cartas inspiradas no universo de Yu-Gi-Oh!
 </p>
 
+<p align="center">
+  <img src="./docs/preview.png" alt="Demonstração do Yu-Gi-Oh! Hub" width="850px" style="border-radius: 10px;" />
+</p>
+
 [Visão Geral](#-visão-geral) •
 [Funcionalidades](#-funcionalidades) •
 [Tecnologias](#-tecnologias) •
